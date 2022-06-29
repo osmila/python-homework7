@@ -2,11 +2,6 @@ import math
 import random
 
 
-def create_file_to_write():
-    file_random_numbers = open('random.txt', 'w')
-    return file_random_numbers
-
-
 def fill_file_random_numbers(file_name, numbers_count=100, max_line_length=10):
     file_random_numbers = open(file_name, 'w')
     try:
