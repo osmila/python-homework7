@@ -20,6 +20,5 @@ task1_write_random_numbers_to_file.test_fill_file_random_numbers_max_line_length
 # Напишите другую функцию, которая считывает первый файл и возводит каждое число в квадрат.
 # Каждое полученное число должно быть дозаписано в исходный файл в таком же формате.
 print('Task 2: Add sqr for random numbers in file:')
-# task1_write_random_numbers_to_file.fill_file_random_numbers('task2.txt', 11, 4)
 line_length, last_line_length, file_items = task2_sqr_values_from_file.calculate_lines_count_and_length('random.txt')
 task2_sqr_values_from_file.add_sqr_values_to_existing_file('random.txt', line_length, last_line_length, file_items)
